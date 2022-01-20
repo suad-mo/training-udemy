@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/my-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -116,6 +117,10 @@
               "devServerTarget": "trening:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }

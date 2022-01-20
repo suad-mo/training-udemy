@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "suad-fitness-tracker": {
+      "hosting": {
+        "trening": [
+          "suad-fitness-tracker"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "suad-fitness-tracker"
+  }
+}
